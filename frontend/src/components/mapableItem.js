@@ -4,7 +4,7 @@ import React from 'react'
 const MapableItem = ({ num }) => {
     return (
         <Box>
-            <Typography>
+            <Typography color='rgb(0,0,0)'>
                 Item number {num}
             </Typography>
         </Box>
