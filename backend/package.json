@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "telegram bot for reading Holoo data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devomid/accTeleBot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "devOm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devomid/accTeleBot/issues"
+  },
+  "homepage": "https://github.com/devomid/accTeleBot#readme"
+}
