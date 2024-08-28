@@ -1,15 +1,15 @@
-import { Box, Button, Typography } from '@mui/joy'
-import React from 'react'
-import MapableParties from '../components/mapableParties';
+import { Box, Button } from '@mui/joy';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { GeneralState } from '../contextApi/GeneralContext';
 import DbChangeModal from '../components/dbChangeModal';
+import MapableParties from '../components/mapableParties';
+import { GeneralState } from '../contextApi/GeneralContext';
 
 const i = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-const getPartiesFromSQL = () => {
+// const getPartiesFromSQL = () => {
     // fetch taraf hesab
-}
+// }
 
 const Parties = () => {
     const navigate = useNavigate();

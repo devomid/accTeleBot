@@ -1,7 +1,6 @@
-import { Button, DialogActions, DialogContent, DialogTitle, Divider, Modal, ModalDialog, Typography } from '@mui/joy'
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
-import WarningRoundedIcon from '@mui/icons-material/WarningRounded';
+import { Button, DialogActions, DialogContent, Modal, ModalDialog, Typography } from '@mui/joy';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const DbChangeModal = ({ dbModal, setDbModal }) => {
     const navigate = useNavigate();
